@@ -1,0 +1,18 @@
+<nav class="nav-extended cyan lighten-2">
+  <div class="container">
+    <div class="nav-wrapper">
+      <a (click)="GoToHome()" class="brand-logo"><i class="material-icons">chat_bubble_outline</i> I DONT KNOW WHAT TO
+        CALL THIS</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a (click)="logout()">Logout</a></li>
+      </ul>
+    </div>
+    <div class="nav-content">
+      <div class="nav-div">
+        <img src="http://placehold.it/50x50" class="circle responsive-img">
+      </div>
+      <h1 class="profile-name">{{user.username}}</h1>
+      <p class="user-text">Inquires at: {{user.email}}</p>
+    </div>
+  </div>
+</nav>

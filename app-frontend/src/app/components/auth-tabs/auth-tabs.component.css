@@ -1,0 +1,35 @@
+.bodyDiv {
+  height: 100vh;
+  background-image: url(https://source.unsplash.com/collection/140759/random);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+div.bodyContainer {
+  margin-top: 50px !important;
+
+}
+
+.tabs a {
+  color: #4dd0e1;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.tabs .active {
+  background: inherit;
+  background-color: white;
+
+}
+
+a:focus.active {
+  background-color: white !important;
+}
+
+a:focus {
+  background-color: white !important;
+}
+
+.auth-content {
+  height: 515px !important;
+}
